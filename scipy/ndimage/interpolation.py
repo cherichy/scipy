@@ -293,7 +293,7 @@ def map_coordinates(input, coordinates, output=None, order=3,
     array([ 2.,  7.])
 
     Above, the interpolated value of a[0.5, 0.5] gives output[0], while
-    a[2, 1] is output[1].
+    a[2, 1] is output[7].
 
     >>> inds = np.array([[0.5, 2], [0.5, 4]])
     >>> ndimage.map_coordinates(a, inds, order=1, cval=-33.3)
